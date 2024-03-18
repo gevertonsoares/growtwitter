@@ -1,4 +1,4 @@
-//Imports
+//imports
 import { User } from "./classes/user";
 import { Tweet } from "./classes/tweet";
 
@@ -52,7 +52,16 @@ tweetfulano2.like(beltrano)
 ciclano.showFeed(ciclano)  
   
 
-// User list
+// User: Following
+// console.log("Following \n --------------------");
+// ciclano.following.forEach( u => console.log(u.username));
+
+// User: Followers
+// console.log("Followers \n --------------------");
+// ciclano.followers.forEach( u => console.log(u.username));
+
+
+
 // console.log(User.allUsers)
 
 
